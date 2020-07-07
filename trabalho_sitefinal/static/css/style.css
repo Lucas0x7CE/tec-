@@ -1,0 +1,350 @@
+/* Div de indexação da pagina */
+
+#indexpagina{
+    font-family: 'Courier New', Courier, monospace;
+    height: 30px;
+    background-color: rgba(51, 51, 51, 0.239);
+    padding: 7px;
+    font-size: 14px;
+    /* padding-top: 2px ; */
+    /* padding-bottom: 20px; */
+}
+#indexpagina h1{
+    margin: 0;
+    padding-left: 20px;
+}
+
+/*Configuracao do Menu de navegação do topo*/
+.nav ul li {
+    /* display: inline; */
+    float: left;
+}
+
+.nav ul li a{
+    display: block;
+    padding: 13px;
+    text-align: center;
+    color: beige;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    background-color: chartreuse;
+    color: black;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 35%;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+.nav{
+    position: sticky;   
+}
+
+#bannertop{
+    position: center;
+    width: 100%;
+}
+
+/*configuracao do sidebar*/
+ul.sidebar{
+    list-style-type: none;
+    width: 200px;
+    background-color: #333;
+    margin: 0px;
+    padding: 0px;
+    /* margin-top: 7px; */
+    height: 100%;
+    padding-top: 50px;
+    float: left;
+    padding-bottom: 500px;
+    
+    
+}
+
+li#space{
+    height: 500px;
+}
+li#header{
+    height: 30px;
+
+}
+
+ul.sidebar li a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: white;
+    padding-left: 20px;
+
+}
+
+ul.sidebar li a:hover {
+    background-color: chartreuse;
+    color: black;
+}
+
+/**/
+
+
+#conteudo{
+
+    width: 82%;
+    /* display: inline-block; */
+    margin-left: 7px;
+    float: left;
+    
+ 
+}
+div#menulateral{
+    
+    /* display: inline-block; */
+    height: 600px;
+    
+    
+}
+
+body{
+    min-height: 900px;
+}
+
+#rodape_site{
+	width:auto;
+	height:auto;
+	background-color:#BDBDBD;
+}
+
+.footer {
+    position: relative;
+    bottom:0;
+    width:100%;
+}
+
+/* produtos */
+
+#rowprods{
+    margin-right: 15px;
+    background-color:  rgba(76, 99, 79, 0.937);   
+}
+
+#Produtos{
+    margin-left: 80px;
+    margin-top: 50px;
+    /* background-color: rgba(0, 0, 255, 0.144); */
+    padding: 10px;
+}
+#Produtos tr th h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    text-align: left;
+}
+
+td#produto div{
+    margin: 5px;
+    background-color: rgba(51, 51, 51, 0.397);
+    margin-bottom: 20px;
+    
+}
+
+td#produto{
+    /* background-color: rgba(18, 61, 179, 0.561); */
+    border-radius: 14px;
+}
+
+tr#imgprod img{
+    height: 150px;
+    width: 200px;
+}
+
+#dadosprod{
+  
+    color:white;
+    margin: 0;
+
+}
+#dadosprod h3{
+    margin-top: 0px;
+    padding-top:5px;
+    text-align: center;
+    font-family: sans-serif;
+    border-bottom-style: solid;
+    border-width: 2px;
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+#dadosprod a{
+    text-decoration:  none;
+    color: white;
+}
+#dadosprod h3:hover{
+    background-color: rgba(168, 206, 94, 0.486);
+    color: rgb(116, 26, 26);
+    text-shadow: 1px 0px greenyellow;
+}
+#dadosprod h4{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    height: 50px;
+}
+
+
+/* PAGINA HOME */
+
+
+
+#homemensagem{
+    /* background-color: rgba(100, 99, 99, 0.431); */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+
+}
+/* ajuste na imagem de fundo */
+#homemensagem img{
+    opacity: 0.5;
+    margin-top: 20px;
+
+}
+
+#homemensagem h3{
+    margin-top: 70px;
+}
+#homemensagem p a{
+    text-decoration: none;
+    color: white;
+}
+
+#homemensagem ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 230px;
+}
+#homemensagem ul li{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#homemensagem ul li:hover{
+    opacity: 0.3;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255, 130, 47, 0.329); */
+
+}
+
+#homemensagem ul li p{
+    margin-top: 70px;
+    background-color: rgba(0, 128, 128, 0.677);
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+/* inserindo imagens nas listas */
+#homemensagem ul li#i1{background-image: url("..\\..\\imgs\\roteador.jpg");}
+#homemensagem ul li#i2{background-image: url("..\\..\\imgs\\testes.jpg");}
+#homemensagem ul li#i3{background-image: url("..\\..\\imgs\\alicates.jpg");}
+#homemensagem ul li#i4{background-image: url("..\\..\\imgs\\componentes.jpg");}
+
+/* posicionamento e outros atributos da div q guarda um texto descritivo */
+#homedescri{
+
+    position: absolute;
+    top: 300px;
+    right: 230px;
+    background-color: rgba(51, 51, 51, 0.449);
+    width: 900px;
+    height: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+}
+
+#homemensagem h1{
+    padding-top: 30px;
+    
+
+    
+}
+
+
+/* TRABALHE CONOSCO */
+#conteudo form{
+    background-color:  rgba(76, 99, 79, 0.237);   
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 20px;
+    padding-right: 10px;
+    
+}
+
+/* #conteudo form input[type=text]{
+    border: none;
+    border-bottom: 2px solid red;
+} */
+
+#conteudo form img{
+    height: 600px;
+    width: 99%;
+    position: relative;
+    opacity: 0.25;
+}
+
+#conteudo div#contform{
+   position: absolute;
+   top: 400px;
+   right: 300px;
+}
+
+/* CONTATO */
+#contato {
+    background-color: rgba(82, 155, 250, 0.198);
+    width: 80%;
+    margin-left: 125px;
+    margin-top: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#contato img{
+    margin-top: 20px;
+    margin-left: 105px;
+    opacity: 0.5;
+}
+
+
+#listacontato {
+    list-style-type:none ;
+    position: absolute;
+    /* right: 650px; */
+    left: 380px;
+    /* bottom: 0px; */
+    top: 420px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: rgba(0, 139, 139, 0.349);
+    padding: 10px;
+}
+#listacontato h1{
+    font-size: 25px;
+}
+#listacontato h6{
+    color:white;
+    text-shadow: 1px 0px black;
+}
+#listacontato p{
+    text-shadow: 1px 0px white;
+    font-variant: small-caps;
+}
